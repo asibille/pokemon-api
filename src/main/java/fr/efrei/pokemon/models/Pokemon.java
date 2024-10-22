@@ -14,6 +14,11 @@ public class Pokemon {
 
     private int level;
 
+    private int hp;
+
+    private int attack;
+
+
     @Enumerated(EnumType.STRING)
     private Type type; // SI mon pokemon est type feu -> Type == "FEU"
 
@@ -48,4 +53,21 @@ public class Pokemon {
     public void setId(String id) {
         this.id = id;
     }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
+
+    public int getAttack() {
+        return attack;
+    }
+
+    public void setAttack(int attack) {
+        this.attack = attack;
+    }
+
 }

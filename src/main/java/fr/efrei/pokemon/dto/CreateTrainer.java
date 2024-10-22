@@ -8,6 +8,10 @@ public class CreateTrainer {
 
     private List<String> team;
 
+    private String region;
+
+
+
     public String getName() {
         return name;
     }
@@ -22,5 +26,13 @@ public class CreateTrainer {
 
     public void setTeam(List<String> team) {
         this.team = team;
+    }
+
+    public String getRegion() {
+        return region;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
     }
 }

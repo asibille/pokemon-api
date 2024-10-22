@@ -33,7 +33,7 @@ public class PokemonService {
     // Trajet de la donnée
     // Controller -> Service -> Repository -> Entité -> BDD
     public void save(Pokemon pokemon) {
-        // INSERT INTO pokemon VALUES (:name, :level, :type);
+        // INSERT INTO pokemon VALUES (:name, :level, :type :hp);
         pokemonRepository.save(pokemon);
     }
 

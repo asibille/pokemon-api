@@ -13,6 +13,8 @@ public class Trainer {
 
     private String name;
 
+    private String region;
+
     @OneToMany
     private List<Pokemon> team;
 
@@ -38,5 +40,12 @@ public class Trainer {
 
     public void setTeam(List<Pokemon> team) {
         this.team = team;
+    }
+    public String getRegion() {
+        return region;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
     }
 }

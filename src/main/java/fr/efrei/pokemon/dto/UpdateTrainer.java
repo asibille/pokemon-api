@@ -6,7 +6,12 @@ public class UpdateTrainer {
 
     private String name;
 
+    private String region;
+
     private List<String> team;
+
+
+
 
     public String getName() {
         return name;
@@ -16,6 +21,14 @@ public class UpdateTrainer {
         this.name = name;
     }
 
+    public String getRegion() {
+        return region;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
+    }
+
     public List<String> getTeam() {
         return team;
     }
@@ -23,4 +36,6 @@ public class UpdateTrainer {
     public void setTeam(List<String> team) {
         this.team = team;
     }
+
+
 }
